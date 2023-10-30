@@ -1,0 +1,136 @@
+body{
+	font-family: sans-serif;
+}
+
+.pai{
+	width: 100%;
+	height: 100vh;
+	background-color: white;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.amarelo{
+	width: 15%;
+	height: 20vh;
+	background-color: rgb(5, 88, 0);
+}
+
+.foto1{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 60px;
+	margin-right: 60px;
+}
+
+.azul1{
+	width: 85%;
+	height: 20vh;
+	background-color: rgb(5, 88, 0);
+
+	display: flex;
+	justify-content: flex-end;
+
+}
+
+input::placeholder{
+	color: rgb(5, 88, 0);
+}
+
+.botao{
+	margin-top: 20px;
+	margin-bottom: 120px;
+	margin-left: 30px;
+	margin-right: 40px;
+	border-radius: 5px;
+}
+
+.verde{
+	width: 100%;
+	height: 32vh;
+	background-color: rgb(219, 220, 222);
+
+	display: flex;
+	justify-content: center;
+}
+
+.vermelho{
+	width: 60%;
+	height: 90vh;
+	background-color: white;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.foto2{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+p{
+	color: blue;
+	font-size: 50px;
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.azul2{
+	width: 40%;
+	height: 90vh;
+	background-color: white;
+
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 60px;
+}
+
+.foto3{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-left: 60px;
+}
+
+.laranja{
+	width: 100%;
+	height: 20vh;
+	background-color: rgb(5, 88, 0);
+}
+
+@media (max-width: 760px){
+	.amarelo, .vermelho, .laranja,  .azul2{
+		width: 100%;
+	}
+
+	.foto1{
+		margin-left: 340px;
+	}
+
+	.azul1{
+		display: none;
+	}
+
+	.verde{
+		display: none;
+ 	}
+
+ 	.foto2{
+ 		width: 97%;
+ 		height: 999px;
+ 	}
+
+	p{
+		text-align: center;
+		font-size: 40px;
+	}
+
+	.foto3{
+		margin-left: 10px;
+		width: 97%;
+		height: 140px;
+	}
